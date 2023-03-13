@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <h1>Giv dyrene mad</h1>
+        <div class="points" id="points">
+            Point:
+            <span id="point-number">
+                0
+            </span>
+        </div>
+        <h2>Dyr</h2>
+        <p>Træk maden hen til dyrene</p>
+        <div id="tiger" class="animal" data-food="meat">
+            Tiger 🐯
+        </div>
+        <div id="monkey" class="animal" data-food="fruit">
+            Abe 🐵
+        </div>
+        <div id="elephant" class="animal" data-food="grass">
+            🐘 Elefant
+        </div>
+
+        <h2>Mad</h2>
+        <div id="source" class="source">
+            <div id="a" draggable="true" data-food="fruit">
+                <span>🍏</span>
+                <span>Æbler</span>
+            </div>
+            <div id="b" draggable="true" data-food="fruit">
+                <span>🍉</span>
+                <span>Vandmelon</span>
+            </div>
+            <div id="c" draggable="true" data-food="fruit">
+                <span>🍇</span>
+                <span>Vindruer</span>
+            </div>
+            <div id="a" draggable="true" data-food="meat">
+                <span>🍖</span>
+                <span>Menneske steak</span>
+            </div>
+            <div id="a" draggable="true" data-food="grass">
+                <span>☘</span>
+                <span>Gras</span>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

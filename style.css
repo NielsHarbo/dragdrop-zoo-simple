@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+.page{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+img{
+    max-width:100%;
+}
+
+.animal, .source{
+    border: 1px solid #888;
+    padding:16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.animal div, .source div {
+    padding: 8px;
+    margin:8px;
+    background: #BADA55;
+    cursor: move;
+    user-select: none;
+}
